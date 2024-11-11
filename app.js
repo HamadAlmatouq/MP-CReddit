@@ -1,10 +1,10 @@
 const express = require("express");
-const accountsRouter = require("./api/accounts/routers");
+const postsRouter = require("./api/posts/routers");
 
 const app = express();
 app.use(express.json());
 
-app.use("/", accountsRouter);
+app.use("/", postsRouter);
 
 //http://localhost:8000
 const PORT = 8000;

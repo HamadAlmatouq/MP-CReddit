@@ -1,4 +1,4 @@
-const accounts = [
+const posts = [
   {
     id: "post1-3a2b-4c5d-6e7f-8901ghij2345",
     title: "Learning JavaScript",
@@ -37,4 +37,4 @@ const accounts = [
   },
 ];
 
-module.exports = accounts;
+module.exports = posts;
